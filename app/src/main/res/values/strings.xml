@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">CS639SpringHW2</string>
+
+    <string name="bird_description">This is a bird. It can usually be found flying or looking for worms in the first</string>
+    <string name="cat_description">This is a cat. They are big fans of milk and yarn. They do not like water and also don\'t like when you touch their tails.</string>
+    <string name="dog_description">This is a dog. Sometimes referred to as a human\'s best friend. They like playing with bones and frisbees.</string>
+    <string name="giraffe_description">Giraffes require over 75 pounds of food a day—and with a diet of leaves, this means they spend most of their time eating. </string>
+    <string name="elephant_description">Elephants are so clever they can peel their own bananas, corn and lots of other food. </string>
+    <string name="fox_description">Foxes have excellent hearing. Red foxes can reportedly hear a watch ticking 40 yards away! </string>
+    <string name="horse_description">The Original \'Horse\' Was the Size of a Golden Retriever. </string>
+    <string name="deer_description">Deer take their first steps within half an hour of their birth. </string>
+    <string name="rabbit_description">Happy rabbits practice a cute behavior known as a “binky:” they jump up in the air and twist and spin around! </string>
+    <string name="butterfly_description">There are about 24,000 species of butterflies.  </string>
+
+
+
+    <string name="please_select_an_animal_image">Please select an animal!</string>
+
+    <string name="rotate">Rotate</string>
+    <string name="scale_up">Scale Up</string>
+    <string name="scale_down">Scale Down</string>
+    <string name="flip">Flip</string>
+    <string name="up">Up</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="down">Down</string>
+    <string name="next_fact"> NEXT FACT</string>
+    <string name="delete_fact">DELETE FACT</string>
+    <string name="add_fact">ADD FACT</string>
+
+    <string name="bird">Bird</string>
+    <string name="cat">Cat</string>
+    <string name="dog">Dog</string>
+    <string name="giraffe">Giraffe</string>
+    <string name="elephant">Elephant</string>
+    <string name="fox">Fox</string>
+    <string name="horse">Horse</string>
+    <string name="deer">Deer</string>
+    <string name="rabbit">Rabbit</string>
+    <string name="butterfly">Butterfly</string>
+
+
+    <string name="please_enter_a_fact">Please enter a fact!</string>
+    <string name="new_fact_added">New Fact Added!</string>
+    <string name="animal_need_at_lease_one_fact">"An animal needs at least one fun fact!"</string>
+
+
+
+</resources>

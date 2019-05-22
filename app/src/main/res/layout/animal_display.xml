@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10">
+
+    <android.support.v7.widget.RecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/recycler_view"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_weight="7.6"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:padding="2dp">
+
+        <EditText
+            android:id="@+id/factInput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@id/addFactButton"/>
+        <Button
+            android:id="@+id/addFactButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:text="@string/add_fact"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.6">
+
+    <Button
+        android:id="@+id/rotateButton"
+        android:layout_width="80dp"
+        android:layout_height='40dp'
+        android:layout_centerVertical="true"
+        android:layout_marginStart="5dp"
+        android:text="@string/rotate" />
+
+    <Button
+        android:id="@+id/flipButton"
+        android:layout_width="80dp"
+        android:layout_height='40dp'
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/rotateButton"
+        android:layout_marginStart="10dp"
+        android:text="@string/flip" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        >
+
+        <ImageView
+            android:id="@+id/vectorCenter"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@id/arrowBack"
+            android:src="@drawable/ic_filter_center_focus_black_24dp" />
+
+
+        <ImageView
+            android:id="@+id/arrowBack"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+
+        <ImageView
+            android:id="@+id/arrowForward"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/vectorCenter"
+            android:src="@drawable/ic_arrow_forward_black_24dp" />
+
+
+        <ImageView
+            android:id="@+id/arrowUpward"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_above="@id/vectorCenter"
+            android:layout_alignStart="@id/vectorCenter"
+            android:src="@drawable/ic_arrow_upward_black_24dp" />
+
+        <ImageView
+            android:id="@+id/arrowDownward"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_below="@id/vectorCenter"
+            android:layout_alignStart="@id/vectorCenter"
+            android:src="@drawable/ic_arrow_downward_black_24dp" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
